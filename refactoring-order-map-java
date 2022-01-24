@@ -1,6 +1,6 @@
 package br.com.j.collection.streamAPI;
 
-import br.com.j.collection.map.exercicioProposal12.Contato;
+import br.com.j.collection.map.exerciseProposal12.Contato;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -82,13 +82,13 @@ public class OrderingRefactoringMap {
 /*class ComparatorOrdemNumerica implements Comparator<Map.Entry<Integer, Contato>> {
     @Override
     public int compare(Map.Entry<Integer, Contato> cont1, Map.Entry<Integer, Contato> cont2) {
-        return Integer.compare(cont1.getValue().getNumero(), cont2.getValue().getNumero());
+        return Integer.compare(cont1.getValue().getNumero(), cont2.getValue().getNumber());
     }
 }*/
 
 /*class ComparatorNumericalOrder implements Comparator<Map.Entry<Integer, Contact>> {
     @Override
-    public int compare(Map.Entry<Integer, Contato> cont1, Map.Entry<Integer, Contact> cont2) {
+    public int compare(Map.Entry<Integer, Contact> cont1, Map.Entry<Integer, Contact> cont2) {
         return cont1.getValue().getName().compareToIgnoreCase(cont2.getValue().getName());
     }
 }*/
